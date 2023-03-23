@@ -53,7 +53,7 @@ const Header = () => {
           alt="Hamburger_img"
           src={Hamburger}
         ></img>
-        <img className="h-8  m-2" alt="Logo" src={Logo}></img>
+        <img className="h-8  m-3" alt="Logo" src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/768px-YouTube_Logo_%282013-2017%29.svg.png?20170829195655'/>
       </div>
       <div>
         <div className="col-span-10 px-80 mt-2">
@@ -102,14 +102,11 @@ const Header = () => {
       </div>
       <div className="flex col-span-1">
         <MdFavorite className="m-4 cursor-pointer" size={25} />
-
         <MdNotificationsActive className="m-4" size={25} />
-
         <img
           className="rounded-full h-9 m-2 cursor-pointer"
           alt="user"
-          src={User}
-        />
+          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzXYh-X4wxX1jfbPywa8HWoNGDnx1Tlo0-g' />
       </div>
     </div>
   );
