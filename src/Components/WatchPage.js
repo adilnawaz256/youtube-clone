@@ -9,7 +9,7 @@ import CommentsSection from "./CommentsSection";
 import LiveChat from "./LiveChat";
 import { useDispatch } from "react-redux";
 import { addMessage } from "../Shared/ChatSlice";
-import User from "../Assets/Images/user.jpg";
+import User from "../Assets/Images/user.png";
 import { calculateViews } from "./Config/helper";
 
 const WatchPage = () => {

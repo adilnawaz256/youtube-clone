@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Hamburger from "../Assets/Images/Hamburger_icon.png";
 import Logo from "../Assets/Images/Logo_Vidio.png";
-import User from "../Assets/Images/user.jpg";
+import User from "../Assets/Images/user.png";
 import { toggleHamburger } from "../Shared/LeftHamburgerSlice";
 import { CiSearch } from "react-icons/ci";
 import { YOUTUBE_SEARCH_API } from "../Components/Config/Constant";
@@ -53,7 +53,7 @@ const Header = () => {
           alt="Hamburger_img"
           src={Hamburger}
         ></img>
-        <img className="h-8  m-3" alt="Logo" src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/768px-YouTube_Logo_%282013-2017%29.svg.png?20170829195655'/>
+        <img className="h-8  m-3" alt="Logo" src={Logo}/>
       </div>
       <div>
         <div className="col-span-10 px-80 mt-2">
@@ -106,7 +106,7 @@ const Header = () => {
         <img
           className="rounded-full h-9 m-2 cursor-pointer"
           alt="user"
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzXYh-X4wxX1jfbPywa8HWoNGDnx1Tlo0-g' />
+          src={User} />
       </div>
     </div>
   );
